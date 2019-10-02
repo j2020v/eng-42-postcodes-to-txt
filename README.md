@@ -2,7 +2,7 @@
 
 ## Objectives:
 - Make API get call
-- Write some details of the postcode txt 
+- Write some details of the postcode on txt 
 
 ## Specifications 
 - Git (at least 6 commits)

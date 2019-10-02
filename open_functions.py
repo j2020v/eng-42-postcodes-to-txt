@@ -6,19 +6,13 @@ retrieve_data = request_postcodes.json()
 #print(retrieve_data)
 #print(request_postcodes.content)
 
-print(retrieve_data['result']['country'], '- Country')
-print(retrieve_data['result']['primary_care_trust'], '- NHS')
-print(retrieve_data['result']['longitude'], '- Longitude')
-print(retrieve_data['result']['latitude'], '- Latitude')
 
-
-
-def write_to_file(file):
+def write_to_file(file, postcode_item):
     try:
-        with open(file, 'w') as opened_file:
-            opened_file.write('' + '\n')
-
-            opened_file.close()
+        with open(file, 'a') as opened_file:
+            opened_file.write(postcode_item + '\n')
     except FileNotFoundError:
-        print('File not found.')
+        print('File not found')
+
+
 
