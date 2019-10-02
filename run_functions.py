@@ -9,6 +9,6 @@ print(retrieve_data['result']['latitude'], '- Latitude')
 # Initiating txt
 # file = open('postcode.txt', 'w')
 
-list_order = ['Country: England', 'Primary Care Trust: Ealing', 'Longitude: -0.382433', 'Latitude: 51.497303']
-for item in list_order:
+list_of_postcode_info = ['Country: England', 'Primary Care Trust: Ealing', 'Longitude: -0.382433', 'Latitude: 51.497303']
+for item in list_of_postcode_info:
     write_to_file('postcode.txt', item)

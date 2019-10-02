@@ -1,7 +1,4 @@
-Sea Bass Grilled
-Champagne
-Noodles
-Rice
-Sushi
-result
-country
+Country: England
+Primary Care Trust: Ealing
+Longitude: -0.382433
+Latitude: 51.497303
